@@ -397,6 +397,8 @@ impl<A: Actionlike> ActionState<A> {
         self.action_data[index].consumed = true;
         self.action_data[index].state.release();
         self.action_data[index].timing.flip();
+        self.action_data[index].value = 0.;
+        self.action_data[index].axis_pair = None;
     }
 
     /// Consumes all actions

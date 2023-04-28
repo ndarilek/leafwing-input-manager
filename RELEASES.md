@@ -1,5 +1,11 @@
 # Release Notes
 
+## Unreleased
+
+### Bugs
+
+- Zero out axes and values when consuming actions.
+
 ## Version 0.9.2
 
 ### Bugs
